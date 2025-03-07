@@ -10,7 +10,7 @@ function plusOne(digits: number[]): number[] {
   let final_digits: number[] = [];
   while (bigDigit > BigInt(0)) {
     final_digits.unshift(Number(bigDigit % BigInt(10)));
-    bigDigit = BigInt(bigDigit / BigInt(10));
+    bigDigit = bigDigit / BigInt(10)
   }
 
   return final_digits;

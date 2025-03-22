@@ -9,7 +9,7 @@ function reverseBits(n: number): number {
   n = ((n >>> 2) & mask2) | ((n & mask2) << 2);
   n = ((n >>> 4) & mask3) | ((n & mask3) << 4);
   n = ((n >>> 8) & mask4) | ((n & mask4) << 8);
-  n = ((n >>> 16) & mask5) | ((n & mask5) << 16);
+  n = ((n >>> 16)& mask5) | ((n & mask5) << 16);
 
   return n >>> 0;
 };

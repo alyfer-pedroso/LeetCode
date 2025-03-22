@@ -1,6 +1,6 @@
 <h2><a href="https://leetcode.com/problems/reverse-bits">Reverse Bits</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>Reverse bits of a given 32 bits unsigned integer.</p>
 
-<p><strong>Note:</strong></p>
+<p><strong>Note</strong></p>
 
 <ul>
 	<li>Note that in some languages, such as Java, there is no unsigned integer type. In this case, both input and output will be given as a signed integer type. They should not affect your implementation, as the integer&#39;s internal binary representation is the same, whether it is signed or unsigned.</li>

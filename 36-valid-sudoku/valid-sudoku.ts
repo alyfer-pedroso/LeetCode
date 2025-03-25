@@ -1,6 +1,6 @@
 function isValidSudoku(board: string[][]): boolean {
   const size = board.length;
-  const base = size ** 0.5;
+  const base = Math.trunc(size ** 0.5);
 
   for (let i = 0; i < size; i++) {
     const rowSet = new Set<string>();

@@ -12,4 +12,4 @@ function reverseBits(n: number): number {
   n = ((n >>> 16)& mask5) | ((n & mask5) << 16);
 
   return n >>> 0;
-};
+}
